@@ -10,21 +10,26 @@ export const Navbar = ( ) => {
                     linksNav="home"
                     myStyle='pr-6 text-zinc-50'
                     contentItem="Home"
+                    routes="/"
+
                 />
                 <ItemNav
                     linksNav="clase 1"
                     myStyle='pr-6 text-zinc-50'
                     contentItem="Clase 1"
+                    routes="/Class1"
                 />
                 <ItemNav
                     linksNav="clase 2"
                     myStyle='pr-6 text-zinc-50'
                     contentItem="Clase 2"
+                    routes="/Class2"
                 />
                 <ItemNav
                     linksNav="clase 3"
                     myStyle='pr-6 text-zinc-50'
-                    contentItem="Clase 2"
+                    contentItem="Clase 3"
+                    routes="/Class3"
                 />
             </ul>
         </nav>

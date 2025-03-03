@@ -1,5 +1,10 @@
-
 import { References } from "../References/References"
+import { 
+    FaFacebook, 
+    FaInstagram, 
+    FaYoutube, 
+    FaLinkedin 
+} from "react-icons/fa"
 
 export const Footer =()=>{
     return(
@@ -7,15 +12,23 @@ export const Footer =()=>{
             <footer className="bg-blue-950 w-full h-20 flex flex-row justify-center items-center">
                 <References
                     styleReference="list-none pr-4"
-                    contentReference="faceboock"
+                    contentReference="Hecho por: Miguel Chilito"
                 />
                 <References
                     styleReference="list-none pr-4"
-                    contentReference="instagram"
+                    contentReference={<FaFacebook />}
                 />
                 <References
                     styleReference="list-none pr-4"
-                    contentReference="youtube"
+                    contentReference={<FaInstagram />}
+                />
+                <References
+                    styleReference="list-none pr-4"
+                    contentReference={<FaYoutube />}
+                />
+                <References
+                styleReference="list-none pr-4"
+                contentReference={<FaLinkedin />}
                 />
             </footer>
         </>
