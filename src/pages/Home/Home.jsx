@@ -1,4 +1,4 @@
-import { Main } from "../layouts/Main/Main";
+import { Main } from "../../layouts/Main/Main";
 
 export const Home = ()=> {
   return (
